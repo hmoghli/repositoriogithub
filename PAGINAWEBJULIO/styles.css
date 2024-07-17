@@ -1,0 +1,13 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro transparente */
+  }
+  .content {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+    padding-top: 100px; /* Ajusta el espacio superior según sea necesario */
+  }
